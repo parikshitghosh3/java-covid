@@ -1,18 +1,23 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title>How to Design Login & Registration Form Transition</title>
+	<title>Login</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/style.css" />">
+  	<link href="webjars/bootstrap/4.5.0/css/bootstrap.min.css"
+	rel="stylesheet">
+	<link href="resources/theme1/css/style.css"
+	rel="stylesheet">
   	<link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
 
 </head>
 <body>
   <div class="cont">
+  
     <div class="form sign-in">
       <h2>Sign In</h2>
       <form action="/login.do" method="post">
@@ -30,10 +35,10 @@
 
       <div class="social-media">
         <ul>
-          <li><img src="images/facebook.png"></li>
-          <li><img src="images/twitter.png"></li>
-          <li><img src="images/linkedin.png"></li>
-          <li><img src="images/instagram.png"></li>
+          <li><img src="resources/images/facebook.png"></li>
+          <li><img src="resources/images/twitter.png"></li>
+          <li><img src="resources/images/linkedin.png"></li>
+          <li><img src="resources/images/instagram.png"></li>
         </ul>
       </div>
     </div>
@@ -75,6 +80,6 @@
       </div>
     </div>
   </div>
-	
+	<script type="text/javascript" src="resources/theme1/js/script.js"></script>
 </body>
 </html>

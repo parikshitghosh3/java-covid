@@ -40,7 +40,10 @@ input, button{
   transition: transform 1.2s ease-in-out;
   transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
 }
-
+h1{
+	text-align: center;
+	
+}
 h2{
   width: 100%;
   font-size: 30px;
@@ -167,7 +170,7 @@ button{
   top: 0;
   width: 900px;
   height: 100%;
-  background-image: url(images/bg.jpg);
+  background-image: url(/first-web-application/src/main/webapp/resources/theme1/css/images/bg.jpg);
   background-size: cover;
   transition: -webkit-transform 1.2s ease-in-out;
   transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
